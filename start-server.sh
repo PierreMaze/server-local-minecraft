@@ -22,6 +22,17 @@ fi
 echo "Docker détecté avec succès!"
 echo
 
+# Charger les variables d'environnement depuis .env
+if [ -f ".env" ]; then
+    echo "Chargement de la configuration depuis .env..."
+    export $(grep -v '^#' .env | xargs)
+    echo "✅ Configuration chargée"
+else
+    echo "⚠️  Fichier .env non trouvé, utilisation des valeurs par défaut"
+    export SERVER_PORT=12345
+fi
+echo
+
 # Construire l'image si nécessaire
 echo "Construction de l'image Docker..."
 docker-compose build
@@ -33,7 +44,7 @@ fi
 
 echo
 echo "Démarrage du serveur Minecraft..."
-echo "Le serveur sera accessible sur localhost:25565"
+echo "Le serveur sera accessible sur localhost:${SERVER_PORT}"
 echo
 echo "Pour voir les logs en temps réel, ouvrez un autre terminal et exécutez:"
 echo "docker-compose logs -f"

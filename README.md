@@ -37,6 +37,28 @@
 
 ## 🎯 **Pré-requis**
 
+
+### 🎮 **Modpack Prominence II**
+
+- **CursForge** - [Télécharger CursForge](https://www.curseforge.com/download/app)
+- **ModPack Prominence II** - [Télécharger le ModPack Prominence II](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg)
+
+### 🛠️ **Outils Serveur**
+
+- **Docker** - [Télécharger Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- **Test Setup** - Executez depuis l'explorateur de fichier `test-setup.bat` pour vérifier que tout est correct.
+
+## 📚 **Documentation**
+
+
+| 📖 **Guide** | 📝 **Description** |
+|-------------|-------------------|
+| [**Guide de configuration**](GUIDE-CONFIGURATION.md) | Documentation de la configuration du serveur Minecraft. |
+| [**Guide de démarrage**](GUIDE-DEMARRAGE.md) | Documentation sur le démarrage du serveur Minecraft. |
+| [**Commandes**](GUIDE-COMMANDES.md) | Commandes de gestion du serveur |
+| [**Connexion à distance**](GUIDE-CONNEXION-DISTANTE.md) | Commandes de démarrage, aisni que la documentation de la configuration de la connexion à distance. |
+| [**Liste des Mods**](MODS-LIST.md) | Liste et tableau des mods utiliser pour le serveur (avec Nom, ModID, Version, Taille (Mo), Source) |
+
 ## 🚀 **Guide d'Installation Rapide**
 
 ### **📋 Prérequis**
@@ -65,26 +87,6 @@
 6. **🎮 Démarrage du serveur** : Exécutez depuis l'explorateur de fichier `start-server.bat`.
 7. **🌐 Connexion distante** : Pour jouer avec des amis en ligne, consultez le [**Guide de Connexion Distante**](GUIDE-CONNEXION-DISTANTE.md)
 
-### 🎮 **Modpack Prominence II**
-
-- **CursForge** - [Télécharger CursForge](https://www.curseforge.com/download/app)
-- **ModPack Prominence II** - [Télécharger le ModPack Prominence II](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg)
-
-### 🛠️ **Outils Serveur**
-
-- **Docker** - [Télécharger Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- **Test Setup** - Executez depuis l'explorateur de fichier `test-setup.bat` pour vérifier que tout est correct.
-
-## 📚 **Documentation**
-
-
-| 📖 **Guide** | 📝 **Description** |
-|-------------|-------------------|
-| [**Guide de configuration**](GUIDE-CONFIGURATION.md) | Documentation de la configuration du serveur Minecraft. |
-| [**Guide de démarrage**](GUIDE-DEMARRAGE.md) | Documentation sur le démarrage du serveur Minecraft. |
-| [**Commandes**](GUIDE-COMMANDES.md) | Commandes de gestion du serveur |
-| [**Connexion à distance**](GUIDE-CONNEXION-DISTANTE.md) | Commandes de démarrage, aisni que la documentation de la configuration de la connexion à distance. |
-| [**Liste des Mods**](MODS-LIST.md) | Liste et tableau des mods utiliser pour le serveur (avec Nom, ModID, Version, Taille (Mo), Source) |
 
 ## 🛡️ **Sécurité & Performance**
 
