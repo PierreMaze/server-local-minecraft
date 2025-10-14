@@ -35,12 +35,15 @@
 - **Nouveaux biomes** et dimensions uniques
 - **Système de progression** et de personnalisation
 
-## 🎯 **Fonctionnalités**
+## 🎯 **Pré-requis**
 
 ### 🎮 **Modpack Prominence II**
 
 - **CursForge** - [Télécharger CursForge](https://www.curseforge.com/download/app)
 - **ModPack Prominence II** - [Télécharger le ModPack Prominence II](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg)
+
+### 🛠️ **Outils Serveur**
+
 - **Docker** - [Télécharger Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ## 📚 **Documentation**
