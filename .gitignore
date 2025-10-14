@@ -11,6 +11,7 @@ Dockerfile
 
 # Fichiers Cursor
 .cursor/
+.cursorignore
 
 # Données du serveur Minecraft
 server-data/

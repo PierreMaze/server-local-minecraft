@@ -1,9 +1,9 @@
 services:
   minecraft-server:
     build: .
-    container_name: YOUR_VALUE
+    container_name: minecraft-server
     ports:
-      - "${SERVER_PORT:-YOUR_VALUE}:YOUR_VALUE"
+      - "${SERVER_PORT:-12345}:12345"
     environment:
       # Configuration Minecraft
       - MINECRAFT_VERSION=${MINECRAFT_VERSION:-1.20.1}
