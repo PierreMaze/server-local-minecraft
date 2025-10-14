@@ -13,7 +13,7 @@
 
 ## 🌟 **Déploiement Instantané avec Docker**
 
-**Un serveur Minecraft professionnel en quelques clics !**
+**Un serveur Minecraft en quelques clics !**
 
 </div>
 
