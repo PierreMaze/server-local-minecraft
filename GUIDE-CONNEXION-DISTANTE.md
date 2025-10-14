@@ -13,7 +13,14 @@ Permettre à un autre utilisateur de se connecter à distance dans votre serveur
 
 ### **Comment utiliser :**
 
-#### **1. Démarrer le tunnel**
+#### **1. Configurer le Token**
+- Récuperer votre token via leur site web : [Récuperer ici](https://dashboard.ngrok.com/get-started/your-authtoken) 
+- Puis le mettre dans la valeur **TOKEN_NGROK** du fichier [**.env**](.env)
+```javascript
+TOKEN_NGROK=YOUR_TOKEN_NGROK
+```
+
+#### **2. Démarrer le tunnel**
 ```bash
 # Option 1: Script automatique
 start-ngrok.bat
@@ -22,12 +29,6 @@ start-ngrok.bat
 ngrok tcp 12345
 ```
 
-#### **2. Configurer le Token**
-- Récuperer votre token via leur site web : [Récuperer ici](https://dashboard.ngrok.com/get-started/your-authtoken) 
-- Puis le mettre dans la valeur **TOKEN_NGROK** du fichier [**.env**](.env)
-```javascript
-TOKEN_NGROK=341gIgKvwcfGxitIdWkPbI1KxqC_87AfkcCdXXW778aqyHE4e
-```
 
 #### **3. Récupérer l'adresse**
 `ngrok` affichera une adresse comme :

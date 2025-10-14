@@ -35,21 +35,27 @@
 - **Nouveaux biomes** et dimensions uniques
 - **Système de progression** et de personnalisation
 
-## 🎯 **Fonctionnalités**
+## 🎯 **Pré-requis**
 
 ### 🎮 **Modpack Prominence II**
 
 - **CursForge** - [Télécharger CursForge](https://www.curseforge.com/download/app)
 - **ModPack Prominence II** - [Télécharger le ModPack Prominence II](https://www.curseforge.com/minecraft/modpacks/prominence-2-rpg)
 
+### 🛠️ **Outils Serveur**
+
+- **Docker** - [Télécharger Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
 ## 📚 **Documentation**
+
+***Lisez-les dans l'ordre pour une meilleure configuration.***
 
 | 📖 **Guide** | 📝 **Description** |
 |-------------|-------------------|
 | [**Guide de configuration**](GUIDE-CONFIGURATION.md) | Documentation de la configuration du serveur Minecraft. |
 | [**Guide de démarrage**](GUIDE-DEMARRAGE.md) | Documentation sur le démarrage du serveur Minecraft. |
 | [**Commandes**](GUIDE-COMMANDES.md) | Commandes de gestion du serveur |
-| [**Connexion à distance**](GUIDE-CONNEXION-DISTANTE.md) | Commandes de démarrage en distanciel, aisni que la documentation de la configuration du serveur Minecraft. |
+| [**Connexion à distance**](GUIDE-CONNEXION-DISTANTE.md) | Commandes de démarrage, aisni que la documentation de la configuration de la connexion à distance. |
 
 ## 🛡️ **Sécurité & Performance**
 
@@ -75,4 +81,3 @@
 [![Docker](https://img.shields.io/badge/Docker-Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com)
 
 </div>
-# server-local-minecraft
