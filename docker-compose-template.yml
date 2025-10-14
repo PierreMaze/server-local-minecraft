@@ -1,0 +1,80 @@
+services:
+  minecraft-server:
+    build: .
+    container_name: YOUR_VALUE
+    ports:
+      - "${SERVER_PORT:-YOUR_VALUE}:YOUR_VALUE"
+    environment:
+      # Configuration Minecraft
+      - MINECRAFT_VERSION=${MINECRAFT_VERSION:-YOUR_VALUE}
+      - MODLOADER=${MODLOADER:-YOUR_VALUE}
+      - MODLOADER_VERSION=${MODLOADER_VERSION:-YOUR_VALUE}
+      - RECOMMENDED_JAVA_VERSION=${RECOMMENDED_JAVA_VERSION:-YOUR_VALUE}
+      
+      # Configuration Java
+      - JAVA_ARGS=${JAVA_ARGS:-YOUR_VALUE}
+      - ADDITIONAL_ARGS=${ADDITIONAL_ARGS:-YOUR_VALUE}
+      
+      # Configuration serveur
+      - RESTART=${RESTART:-YOUR_VALUE}
+      - WAIT_FOR_USER_INPUT=${WAIT_FOR_USER_INPUT:-YOUR_VALUE}
+      - SKIP_JAVA_CHECK=${SKIP_JAVA_CHECK:-YOUR_VALUE}
+      - EULA=${EULA:-YOUR_VALUE}
+      
+      # Configuration Fabric
+      - FABRIC_INSTALLER_VERSION=${FABRIC_INSTALLER_VERSION:-YOUR_VALUE}
+      - USE_SSJ=${USE_SSJ:-YOUR_VALUE}
+      - SERVERSTARTERJAR_FORCE_FETCH=${SERVERSTARTERJAR_FORCE_FETCH:-YOUR_VALUE}
+      - SERVERSTARTERJAR_VERSION=${SERVERSTARTERJAR_VERSION:-YOUR_VALUE}
+      
+      # Configuration JDK
+      - JDK_VENDOR=${JDK_VENDOR:-YOUR_VALUE}
+      - JABBA_INSTALL_VERSION=${JABBA_INSTALL_VERSION:-YOUR_VALUE}
+      
+      # Adresse IP du serveur
+      - SERVER_IP=${SERVER_IP:-YOUR_VALUE}
+    
+    volumes:
+      # Persistance des données
+      - minecraft_world:/minecraft/world
+      - minecraft_logs:/minecraft/logs
+      - minecraft_backups:/minecraft/backups
+      - minecraft_config:/minecraft/config
+      - minecraft_mods:/minecraft/mods
+      
+      # Configuration serveur (optionnel - pour personnaliser)
+      - ./server.properties:/minecraft/server.properties:ro
+      - ./ops.json:/minecraft/ops.json:ro
+      - ./whitelist.json:/minecraft/whitelist.json:ro
+    
+    restart: unless-stopped
+    
+    # Limites de ressources (optionnel)
+    deploy:
+      resources:
+        limits:
+          memory: YOUR_VALUE
+        reservations:
+          memory: YOUR_VALUE
+    
+    # Réseau personnalisé (optionnel)
+    networks:
+      - YOUR_VALUE
+
+# Volumes nommés pour la persistance
+volumes:
+  minecraft_world:
+    driver: local
+  minecraft_logs:
+    driver: local
+  minecraft_backups:
+    driver: local
+  minecraft_config:
+    driver: local
+  minecraft_mods:
+    driver: local
+
+# Réseau personnalisé
+networks:
+  YOUR_VALUE:
+    driver: bridge

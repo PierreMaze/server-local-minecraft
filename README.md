@@ -56,6 +56,7 @@
 | [**Guide de démarrage**](GUIDE-DEMARRAGE.md) | Documentation sur le démarrage du serveur Minecraft. |
 | [**Commandes**](GUIDE-COMMANDES.md) | Commandes de gestion du serveur |
 | [**Connexion à distance**](GUIDE-CONNEXION-DISTANTE.md) | Commandes de démarrage, aisni que la documentation de la configuration de la connexion à distance. |
+| [**Liste des Mods**](MODS-LIST.md) | Liste et tableau des mods utiliser pour le serveur (avec Nom, ModID, Version, Taille (Mo), Source) |
 
 ## 🛡️ **Sécurité & Performance**
 

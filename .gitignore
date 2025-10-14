@@ -6,6 +6,8 @@
 
 # Fichiers Docker
 .docker/
+docker-compose.yml
+Dockerfile
 
 # Fichiers Cursor
 .cursor/

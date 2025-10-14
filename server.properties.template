@@ -4,7 +4,7 @@
 
 # Server Configuration
 server-name=Prominence II Server
-server-port=12345
+server-port=12345        //change
 server-ip=
 
 # Game Settings

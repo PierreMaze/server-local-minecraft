@@ -7,8 +7,27 @@ echo.
 echo Vérification des prérequis...
 echo.
 
+REM Vérifier la virtualisation
+echo [1/5] Vérification de la virtualisation...
+systeminfo | findstr /C:"Hyper-V" >nul 2>&1
+if %errorlevel% equ 0 (
+    echo ✅ Virtualisation Hyper-V détectée
+) else (
+    echo ⚠️  Virtualisation non détectée ou désactivée
+    echo    Assurez-vous que la virtualisation est activée dans le BIOS/UEFI
+    echo    - Intel: Intel VT-x
+    echo    - AMD: AMD-V
+    echo    - Windows: Hyper-V ou WSL2
+    echo.
+    echo    Pour vérifier manuellement:
+    echo    - Ouvrez le Gestionnaire des tâches
+    echo    - Onglet "Performances" ^> "CPU"
+    echo    - Vérifiez "Virtualisation: Activée"
+    echo.
+)
+
 REM Vérifier Docker
-echo [1/4] Vérification de Docker...
+echo [2/5] Vérification de Docker...
 docker --version >nul 2>&1
 if %errorlevel% neq 0 (
     echo ❌ Docker n'est pas installé
@@ -19,7 +38,7 @@ if %errorlevel% neq 0 (
 )
 
 REM Vérifier Docker Compose
-echo [2/4] Vérification de Docker Compose...
+echo [3/5] Vérification de Docker Compose...
 docker-compose --version >nul 2>&1
 if %errorlevel% neq 0 (
     echo ❌ Docker Compose n'est pas disponible
@@ -29,7 +48,7 @@ if %errorlevel% neq 0 (
 )
 
 REM Vérifier les fichiers nécessaires
-echo [3/4] Vérification des fichiers de configuration...
+echo [4/5] Vérification des fichiers de configuration...
 if not exist "docker-compose.yml" (
     echo ❌ docker-compose.yml manquant
     goto :error
@@ -53,7 +72,7 @@ if not exist "Prominence_II_Hasturian_Era_v3.9.1_Server_Pack" (
 )
 
 REM Vérifier l'espace disque
-echo [4/4] Vérification de l'espace disque...
+echo [5/5] Vérification de l'espace disque...
 for /f "tokens=3" %%a in ('dir /-c ^| find "bytes free"') do set free=%%a
 if %free% LSS 10000000000 (
     echo ⚠️  Espace disque faible (moins de 10GB)

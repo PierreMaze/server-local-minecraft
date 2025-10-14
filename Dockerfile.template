@@ -1,0 +1,67 @@
+# Dockerfile pour serveur Minecraft avec modpack Prominence II: Hasturian Era
+FROM eclipse-temurin:21-jdk
+
+# Métadonnées
+LABEL maintainer="YOUR_VALUE"
+LABEL description="YOUR_VALUE"
+LABEL version="YOUR_VALUE"
+
+# Variables d'environnement
+ENV MINECRAFT_VERSION="YOUR_VALUE"
+ENV MODLOADER="YOUR_VALUE"
+ENV MODLOADER_VERSION="YOUR_VALUE"
+ENV RECOMMENDED_JAVA_VERSION="YOUR_VALUE"
+ENV JAVA_ARGS="YOUR_VALUE"
+ENV ADDITIONAL_ARGS="YOUR_VALUE"
+ENV RESTART="YOUR_VALUE"
+ENV WAIT_FOR_USER_INPUT="YOUR_VALUE"
+ENV SKIP_JAVA_CHECK="YOUR_VALUE"
+ENV USE_SSJ="YOUR_VALUE"
+ENV SERVERSTARTERJAR_FORCE_FETCH="YOUR_VALUE"
+ENV SERVERSTARTERJAR_VERSION="YOUR_VALUE"
+ENV EULA="YOUR_VALUE"
+
+# Installation des dépendances système
+RUN apt-get update && apt-get install -y \
+    curl \
+    wget \
+    unzip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Création de l'utilisateur minecraft (sécurité)
+RUN groupadd -r minecraft && useradd -r -g minecraft minecraft
+
+# Répertoire de travail
+WORKDIR /minecraft
+
+# Copie des fichiers du serveur
+COPY YOUR_VALUE/ ./
+
+# Rendre les scripts exécutables
+RUN chmod +x start.sh install_java.sh
+
+# Création du fichier EULA
+RUN echo "#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA)." > eula.txt && \
+    echo "eula=true" >> eula.txt
+
+# Création du répertoire pour les données du serveur
+RUN mkdir -p /minecraft/world /minecraft/logs /minecraft/backups
+
+# Changement de propriétaire pour l'utilisateur minecraft
+RUN chown -R minecraft:minecraft /minecraft
+
+# Utilisateur non-root
+USER minecraft
+
+# Exposition du port
+EXPOSE YOUR_VALUE
+
+# Volume pour la persistance des données
+VOLUME ["/minecraft/world", "/minecraft/logs", "/minecraft/backups"]
+
+# Modifier les variables pour utiliser Java directement
+RUN sed -i 's/JAVA="java"/JAVA="YOUR_VALUE"/' variables.txt && \
+    sed -i 's/SKIP_JAVA_CHECK=false/SKIP_JAVA_CHECK=true/' variables.txt
+
+# Commande de démarrage
+CMD ["./start.sh"]
