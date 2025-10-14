@@ -12,7 +12,7 @@ gamemode=survival
 difficulty=normal
 hardcore=false
 pvp=true
-allow-flight=false
+allow-flight=true
 allow-nether=true
 allow-end=true
 

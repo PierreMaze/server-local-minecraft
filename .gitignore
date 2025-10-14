@@ -1,3 +1,9 @@
+# Variables d'environnement
+.env
+.env.local
+.env.production
+.env.development
+
 # Fichiers Docker
 .docker/
 
