@@ -45,6 +45,7 @@
 ### 🛠️ **Outils Serveur**
 
 - **Docker** - [Télécharger Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- **Test Setup** - Aller sur l'explorateur de fichier et lancer le fichier test-setup.bat, qui verfira si votre setup est bon.
 
 ## 📚 **Documentation**
 
