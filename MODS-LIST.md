@@ -1,76 +1,243 @@
-﻿| Nom | ModID | Version | Taille (Mo) | Source |
+﻿<div align="center">
+
+# 📦 Liste des Mods Minecrat utilisé dans le serveur.
+
+## 🌐 Sources des Mods Essentiels
+
+[![CurseForge](https://img.shields.io/badge/CurseForge-FF6B35?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![GitLab](https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/)
+[![Modrinth](https://img.shields.io/badge/Modrinth-8K95E3?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/)
+[![CC: Tweaked](https://img.shields.io/badge/CC_Tweaked-FF6B35?style=for-the-badge&logo=computer&logoColor=white)](https://tweaked.cc/)
+[![Chefs Delight](https://img.shields.io/badge/Chefs_Delight-FF8C42?style=for-the-badge&logo=utensils&logoColor=white)](https://www.redstonegames.com.br)
+[![Nyuppo](https://img.shields.io/badge/Nyuppo-FF69B4?style=for-the-badge&logo=bug&logoColor=white)](https://nyuppo.github.io/moremobvariants/)
+[![Legacy Curseforge](https://img.shields.io/badge/Legacy.Curseforge-FFD700?style=for-the-badge&logo=balance-scale&logoColor=white)](https://legacy.curseforge.com/minecraft/)
+
+
+## 🔧 Mods Essentiels
+
+[![Create](https://img.shields.io/badge/Create-FF6B35?style=for-the-badge&logo=gear&logoColor=white)](https://github.com/Creators-of-Create/Create)
+[![Applied Energistics 2](https://img.shields.io/badge/AE2-4A90E2?style=for-the-badge&logo=memory&logoColor=white)](https://github.com/AppliedEnergistics/Applied-Energistics-2)
+[![Botania](https://img.shields.io/badge/Botania-9370DB?style=for-the-badge&logo=flower&logoColor=white)](https://github.com/VazkiiMods/Botania)
+[![Tech Reborn](https://img.shields.io/badge/Tech_Reborn-32CD32?style=for-the-badge&logo=circuit-board&logoColor=white)](https://github.com/TechReborn/TechReborn)
+[![Industrial Revolution](https://img.shields.io/badge/Industrial_Revolution-FF8C00?style=for-the-badge&logo=industry&logoColor=white)](https://github.com/GabrielOlvH/Industrial-Revolution)
+[![Modern Industrialization](https://img.shields.io/badge/Modern_Industrialization-00CED1?style=for-the-badge&logo=factory&logoColor=white)](https://github.com/AztechMC/Modern-Industrialization)
+[![Powah!](https://img.shields.io/badge/Powah!-FFD700?style=for-the-badge&logo=lightning&logoColor=white)](https://github.com/owmii/Powah)
+[![Ad Astra](https://img.shields.io/badge/Ad_Astra-4169E1?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/terrariumearth/Ad-Astra)
+[![Better End](https://img.shields.io/badge/Better_End-8A2BE2?style=for-the-badge&logo=moon&logoColor=white)](https://github.com/BeetrootMC/BetterEnd)
+[![Better Nether](https://img.shields.io/badge/Better_Nether-DC143C?style=for-the-badge&logo=fire&logoColor=white)](https://github.com/BeetrootMC/BetterNether)
+[![Deeper and Darker](https://img.shields.io/badge/Deeper_and_Darker-2F4F4F?style=for-the-badge&logo=skull&logoColor=white)](https://github.com/Devin-Monroe/Deeper-Darker)
+[![The Bumblezone](https://img.shields.io/badge/The_Bumblezone-FFD700?style=for-the-badge&logo=bee&logoColor=white)](https://github.com/TelepathicGrunt/Bumblezone)
+[![The Graveyard](https://img.shields.io/badge/The_Graveyard-696969?style=for-the-badge&logo=grave&logoColor=white)](https://github.com/finallion/The_Graveyard)
+[![When Dungeons Arise](https://img.shields.io/badge/When_Dungeons_Arise-8B4513?style=for-the-badge&logo=castle&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise)
+[![Supplementaries](https://img.shields.io/badge/Supplementaries-32CD32?style=for-the-badge&logo=home&logoColor=white)](https://github.com/MehVahdJukaar/Supplementaries)
+[![Handcrafted](https://img.shields.io/badge/Handcrafted-8B4513?style=for-the-badge&logo=hammer&logoColor=white)](https://github.com/MehVahdJukaar/Handcrafted)
+[![Chipped](https://img.shields.io/badge/Chipped-FF6B6B?style=for-the-badge&logo=scissors&logoColor=white)](https://github.com/terrariumearth/Chipped)
+[![Twigs](https://img.shields.io/badge/Twigs-8B4513?style=for-the-badge&logo=tree&logoColor=white)](https://github.com/ninnih_/Twigs)
+[![Farmer's Delight](https://img.shields.io/badge/Farmer's_Delight-228B22?style=for-the-badge&logo=wheat&logoColor=white)](https://github.com/vectorwing/FarmersDelight)
+[![Croptopia](https://img.shields.io/badge/Croptopia-32CD32?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/thecroco/croptopia)
+[![Bewitchment](https://img.shields.io/badge/Bewitchment-8B008B?style=for-the-badge&logo=crystal-ball&logoColor=white)](https://github.com/MoriyaShiine/bewitchment)
+[![Simply Swords](https://img.shields.io/badge/Simply_Swords-FFD700?style=for-the-badge&logo=sword&logoColor=white)](https://github.com/sweenius/SimplySwords)
+[![SimplySkills](https://img.shields.io/badge/SimplySkills-FF6B6B?style=for-the-badge&logo=star&logoColor=white)](https://github.com/sweenius/SimplySkills)
+[![Marium's Soulslike](https://img.shields.io/badge/Marium's_Soulslike-8B0000?style=for-the-badge&logo=sword&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/mariums-soulslike-weaponry)
+[![MC Dungeons Weapons](https://img.shields.io/badge/MC_Dungeons_Weapons-FFD700?style=for-the-badge&logo=sword&logoColor=white)](https://github.com/Chronosacaria/MCDungeonsWeapons)
+[![MC Dungeons Armors](https://img.shields.io/badge/MC_Dungeons_Armors-4A90E2?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Chronosacaria/MCDungeonsArmors)
+[![Artifacts](https://img.shields.io/badge/Artifacts-FF8C00?style=for-the-badge&logo=gem&logoColor=white)](https://github.com/ochotonida/artifacts)
+[![AdventureZ](https://img.shields.io/badge/AdventureZ-8B4513?style=for-the-badge&logo=compass&logoColor=white)](https://github.com/Globox1997/AdventureZ)
+[![Bosses of Mass Destruction](https://img.shields.io/badge/Bosses_of_Mass_Destruction-DC143C?style=for-the-badge&logo=skull&logoColor=white)](https://github.com/CodexAdrian/Bosses-of-Mass-Destruction)
+[![Friends&Foes](https://img.shields.io/badge/Friends&Foes-FF69B4?style=for-the-badge&logo=heart&logoColor=white)](https://github.com/terrariumearth/Friends-and-Foes)
+[![Mobs of Mythology](https://img.shields.io/badge/Mobs_of_Mythology-FFD700?style=for-the-badge&logo=dragon&logoColor=white)](https://github.com/terrariumearth/Mobs-of-Mythology)
+[![Mutant Monsters](https://img.shields.io/badge/Mutant_Monsters-8B008B?style=for-the-badge&logo=spider&logoColor=white)](https://github.com/terrariumearth/Mutant-Monsters)
+[![Naturalist](https://img.shields.io/badge/Naturalist-228B22?style=for-the-badge&logo=leaf&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/naturalist)
+[![Aquamirae](https://img.shields.io/badge/Aquamirae-00CED1?style=for-the-badge&logo=water&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/aquamirae)
+[![Mine Cells](https://img.shields.io/badge/Mine_Cells-8B0000?style=for-the-badge&logo=prison&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/mine-cells)
+[![Eldritch End](https://img.shields.io/badge/Eldritch_End-4B0082?style=for-the-badge&logo=eye&logoColor=white)](https://github.com/terrariumearth/Eldritch-End)
+[![Regions Unexplored](https://img.shields.io/badge/Regions_Unexplored-32CD32?style=for-the-badge&logo=mountain&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/regions-unexplored)
+[![Promenade](https://img.shields.io/badge/Promenade-FFB6C1?style=for-the-badge&logo=tree&logoColor=white)](https://github.com/terrariumearth/Promenade)
+[![Prominent](https://img.shields.io/badge/Prominent-9370DB?style=for-the-badge&logo=star&logoColor=white)](https://github.com/terrariumearth/Prominent)
+[![ChoiceTheorem's Overhauled Village](https://img.shields.io/badge/CTOV-8B4513?style=for-the-badge&logo=village&logoColor=white)](https://github.com/terrariumearth/ChoiceTheorem-s-Overhauled-Village)
+[![YUNG's Better Dungeons](https://img.shields.io/badge/YUNG's_Better_Dungeons-8B4513?style=for-the-badge&logo=castle&logoColor=white)](https://github.com/terrariumearth/YUNGs-Better-Dungeons)
+[![YUNG's Better Strongholds](https://img.shields.io/badge/YUNG's_Better_Strongholds-8B4513?style=for-the-badge&logo=fortress&logoColor=white)](https://github.com/terrariumearth/YUNGs-Better-Strongholds)
+[![YUNG's Better Desert Temples](https://img.shields.io/badge/YUNG's_Better_Desert_Temples-FFD700?style=for-the-badge&logo=pyramid&logoColor=white)](https://github.com/terrariumearth/YUNGs-Better-Desert-Temples)
+[![YUNG's Better Jungle Temples](https://img.shields.io/badge/YUNG's_Better_Jungle_Temples-228B22?style=for-the-badge&logo=tree&logoColor=white)](https://github.com/terrariumearth/YUNGs-Better-Jungle-Temples)
+[![YUNG's Better Ocean Monuments](https://img.shields.io/badge/YUNG's_Better_Ocean_Monuments-00CED1?style=for-the-badge&logo=water&logoColor=white)](https://github.com/terrariumearth/YUNGs-Better-Ocean-Monuments)
+[![YUNG's Better Nether Fortresses](https://img.shields.io/badge/YUNG's_Better_Nether_Fortresses-DC143C?style=for-the-badge&logo=fire&logoColor=white)](https://github.com/terrariumearth/YUNGs-Better-Nether-Fortresses)
+[![YUNG's Better Mineshafts](https://img.shields.io/badge/YUNG's_Better_Mineshafts-8B4513?style=for-the-badge&logo=mine&logoColor=white)](https://github.com/terrariumearth/YUNGs-Better-Mineshafts)
+[![YUNG's Better Witch Huts](https://img.shields.io/badge/YUNG's_Better_Witch_Huts-8B008B?style=for-the-badge&logo=cauldron&logoColor=white)](https://github.com/terrariumearth/YUNGs-Better-Witch-Huts)
+[![YUNG's Better End Island](https://img.shields.io/badge/YUNG's_Better_End_Island-8A2BE2?style=for-the-badge&logo=moon&logoColor=white)](https://github.com/terrariumearth/YUNGs-Better-End-Island)
+[![YUNG's Bridges](https://img.shields.io/badge/YUNG's_Bridges-8B4513?style=for-the-badge&logo=bridge&logoColor=white)](https://github.com/terrariumearth/YUNGs-Bridges)
+[![FTB Quests](https://img.shields.io/badge/FTB_Quests-FF6B35?style=for-the-badge&logo=book&logoColor=white)](https://github.com/FTBTeam/FTB-Quests)
+[![FTB Library](https://img.shields.io/badge/FTB_Library-4A90E2?style=for-the-badge&logo=library&logoColor=white)](https://github.com/FTBTeam/FTB-Library)
+[![FTB Teams](https://img.shields.io/badge/FTB_Teams-32CD32?style=for-the-badge&logo=users&logoColor=white)](https://github.com/FTBTeam/FTB-Teams)
+[![Jade](https://img.shields.io/badge/Jade-32CD32?style=for-the-badge&logo=eye&logoColor=white)](https://github.com/Snownee/Jade)
+[![EMI](https://img.shields.io/badge/EMI-FFD700?style=for-the-badge&logo=book&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/emi)
+[![Mod Menu](https://img.shields.io/badge/Mod_Menu-9370DB?style=for-the-badge&logo=menu&logoColor=white)](https://github.com/TerraformersMC/ModMenu)
+[![Fabric API](https://img.shields.io/badge/Fabric_API-6272A4?style=for-the-badge&logo=fabric&logoColor=white)](https://github.com/FabricMC/fabric)
+[![Sodium](https://img.shields.io/badge/Sodium-4A90E2?style=for-the-badge&logo=lightning&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/sodium)
+[![Iris](https://img.shields.io/badge/Iris-9370DB?style=for-the-badge&logo=eye&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/iris)
+[![Lithium](https://img.shields.io/badge/Lithium-FFD700?style=for-the-badge&logo=battery&logoColor=white)](https://github.com/CaffeineMC/lithium-fabric)
+[![ModernFix](https://img.shields.io/badge/ModernFix-FF6B6B?style=for-the-badge&logo=wrench&logoColor=white)](https://github.com/embeddedt/ModernFix)
+[![FerriteCore](https://img.shields.io/badge/FerriteCore-4A90E2?style=for-the-badge&logo=memory&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric)
+[![Starlight](https://img.shields.io/badge/Starlight-FFD700?style=for-the-badge&logo=star&logoColor=white)](https://github.com/PaperMC/Starlight)
+[![Cloth Config](https://img.shields.io/badge/Cloth_Config-9370DB?style=for-the-badge&logo=gear&logoColor=white)](https://github.com/shedaniel/cloth-config)
+[![Patchouli](https://img.shields.io/badge/Patchouli-8B4513?style=for-the-badge&logo=book&logoColor=white)](https://github.com/VazkiiMods/Patchouli)
+[![GeckoLib](https://img.shields.io/badge/GeckoLib-32CD32?style=for-the-badge&logo=bug&logoColor=white)](https://github.com/bernie-g/geckolib)
+[![Trinkets](https://img.shields.io/badge/Trinkets-FF69B4?style=for-the-badge&logo=gem&logoColor=white)](https://github.com/emilyalexandra/trinkets)
+[![Architectury](https://img.shields.io/badge/Architectury-4A90E2?style=for-the-badge&logo=architecture&logoColor=white)](https://github.com/architectury/architectury-api)
+[![Bookshelf](https://img.shields.io/badge/Bookshelf-8B4513?style=for-the-badge&logo=book&logoColor=white)](https://github.com/DarkhaxDev/Bookshelf)
+[![Balm](https://img.shields.io/badge/Balm-FFD700?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/BlayTheNinth/Balm)
+[![Moonlight](https://img.shields.io/badge/Moonlight-9370DB?style=for-the-badge&logo=moon&logoColor=white)](https://github.com/MehVahdJukaar/Moonlight)
+[![Collective](https://img.shields.io/badge/Collective-4A90E2?style=for-the-badge&logo=users&logoColor=white)](https://github.com/Serilum/Collective)
+[![CreativeCore](https://img.shields.io/badge/CreativeCore-FF6B6B?style=for-the-badge&logo=palette&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/creativecore)
+[![Resourceful Lib](https://img.shields.io/badge/Resourceful_Lib-32CD32?style=for-the-badge&logo=library&logoColor=white)](https://github.com/terrariumearth/ResourcefulLib)
+[![MidnightLib](https://img.shields.io/badge/MidnightLib-4B0082?style=for-the-badge&logo=moon&logoColor=white)](https://github.com/TeamMidnightDust/MidnightLib)
+[![Puzzles Lib](https://img.shields.io/badge/Puzzles_Lib-9370DB?style=for-the-badge&logo=puzzle&logoColor=white)](https://github.com/terrariumearth/PuzzlesLib)
+[![YUNG's API](https://img.shields.io/badge/YUNG's_API-8B4513?style=for-the-badge&logo=gear&logoColor=white)](https://github.com/terrariumearth/YUNGs-API)
+[![BCLib](https://img.shields.io/badge/BCLib-32CD32?style=for-the-badge&logo=library&logoColor=white)](https://github.com/BeetrootMC/BCLib)
+[![TerraBlender](https://img.shields.io/badge/TerraBlender-228B22?style=for-the-badge&logo=globe&logoColor=white)](https://github.com/Glitchfiend/TerraBlender)
+[![Fabric Seasons](https://img.shields.io/badge/Fabric_Seasons-32CD32?style=for-the-badge&logo=calendar&logoColor=white)](https://github.com/terrariumearth/Fabric-Seasons)
+[![Fabric Waystones](https://img.shields.io/badge/Fabric_Waystones-9370DB?style=for-the-badge&logo=compass&logoColor=white)](https://github.com/terrariumearth/Fabric-Waystones)
+[![Comforts](https://img.shields.io/badge/Comforts-8B4513?style=for-the-badge&logo=bed&logoColor=white)](https://github.com/terrariumearth/Comforts)
+[![Traveler's Backpack](https://img.shields.io/badge/Traveler's_Backpack-8B4513?style=for-the-badge&logo=backpack&logoColor=white)](https://github.com/terrariumearth/Travelers-Backpack)
+[![Carry On](https://img.shields.io/badge/Carry_On-FFD700?style=for-the-badge&logo=hand&logoColor=white)](https://github.com/terrariumearth/Carry-On)
+[![Polymorph](https://img.shields.io/badge/Polymorph-9370DB?style=for-the-badge&logo=shapes&logoColor=white)](https://github.com/terrariumearth/Polymorph)
+[![Inventory Sorter](https://img.shields.io/badge/Inventory_Sorter-4A90E2?style=for-the-badge&logo=sort&logoColor=white)](https://github.com/terrariumearth/Inventory-Sorter)
+[![Mouse Tweaks](https://img.shields.io/badge/Mouse_Tweaks-FF6B6B?style=for-the-badge&logo=mouse&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/mousetweaks)
+[![AppleSkin](https://img.shields.io/badge/AppleSkin-FF8C00?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/terrariumearth/AppleSkin)
+[![Jade](https://img.shields.io/badge/Jade-32CD32?style=for-the-badge&logo=eye&logoColor=white)](https://github.com/Snownee/Jade)
+[![WTHIT](https://img.shields.io/badge/WTHIT-4A90E2?style=for-the-badge&logo=info&logoColor=white)](https://github.com/badasintended/wthit)
+[![BadPackets](https://img.shields.io/badge/BadPackets-FF6B6B?style=for-the-badge&logo=shield&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/bad-packets)
+[![No Chat Reports](https://img.shields.io/badge/No_Chat_Reports-FF4500?style=for-the-badge&logo=shield&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports)
+[![Spark](https://img.shields.io/badge/Spark-FFD700?style=for-the-badge&logo=lightning&logoColor=white)](https://github.com/Iucko/Spark)
+[![Debugify](https://img.shields.io/badge/Debugify-32CD32?style=for-the-badge&logo=bug&logoColor=white)](https://github.com/terrariumearth/Debugify)
+[![Stack Deobfuscator](https://img.shields.io/badge/Stack_Deobfuscator-FF6B6B?style=for-the-badge&logo=code&logoColor=white)](https://github.com/terrariumearth/StackDeobfuscator)
+[![MixinTrace](https://img.shields.io/badge/MixinTrace-9370DB?style=for-the-badge&logo=search&logoColor=white)](https://github.com/terrariumearth/MixinTrace)
+[![Crash Assistant](https://img.shields.io/badge/Crash_Assistant-FF6B6B?style=for-the-badge&logo=warning&logoColor=white)](https://github.com/terrariumearth/Crash-Assistant)
+[![Modpack Update Checker](https://img.shields.io/badge/Modpack_Update_Checker-32CD32?style=for-the-badge&logo=update&logoColor=white)](https://github.com/terrariumearth/Modpack-Update-Checker)
+
+---
+</div>
+
+<style>
+table {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  border-collapse: collapse !important;
+  width: 100% !important;
+  margin: 20px 0 !important;
+}
+
+th, td {
+  padding: 12px 16px !important;
+  text-align: left !important;
+  border: 1px solid #ddd !important;
+  font-size: 16px !important;
+}
+
+th {
+  background-color:rgb(25, 26, 31) !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  color: rgb(143, 144, 153) !important;
+}
+
+tr {
+  background-color:rgb(27, 28, 34) !important;
+}
+
+tr:hover {
+  background-color:rgb(23, 23, 27) !important;
+}
+
+td:nth-child(3), td:nth-child(4) {
+  text-align: center !important;
+}
+
+a {
+  color:rgb(185, 162, 121) !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+  color:rgb(175, 143, 88) !important;
+}
+</style>
+
+| Nom | ModID | Version | Taille (Mo) | Source |
 |---|---|---:|---:|---|
-| ae2-emi-crafting | ae2-emi-crafting | 1.3.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ae2-emi-crafting) |
-| ae2mtfix | ae2mtfix | 2.0.0+1.20.1+fabric |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ae2mtfix) |
-| ambientsounds | ambientsounds | 6.1.11 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ambientsounds) |
-| amecs | amecs | 1.3.10+mc.1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/amecs) |
-| animation_overhaul | animation_overhaul | 1.3.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/animation-overhaul) |
-| auudio | auudio | 1.0.3 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/auudio) |
-| axolotlitemfix | axolotlitemfix | 1.1.7 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/axolotlitemfix) |
-| badoptimizations | badoptimizations | 2.2.3 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/badoptimizations) |
-| betteradvancements | betteradvancements | 0.4.2.25 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/betteradvancements) |
-| betterbeds | betterbeds | 1.3.0 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/betterbeds) |
-| bhmenu | bhmenu | 2.4.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/bhmenu) |
-| blur | blur | 3.1.0 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/blur) |
-| boatiview | boatiview | 0.0.5 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/boatiview) |
-| bobby | bobby | 5.0.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/bobby) |
-| cat_jam | cat_jam | 1.3.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cat-jam) |
-| chat_heads | chat_heads | 0.13.18 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/chat-heads) |
-| chatanimation | chatanimation | 1.0.5 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/chatanimation) |
-| cherishedworlds | cherishedworlds | 6.1.7+1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cherishedworlds) |
-| citresewn | citresewn | 1.2.2+1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/citresewn) |
-| clickadv | clickadv | 1.20.1-3.8 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/clickadv) |
-| disable_custom_worlds_advice | disable_custom_worlds_advice | 4.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/disable-custom-worlds-advice) |
-| distraction_free_recipes | distraction_free_recipes | 1.2.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/distraction-free-recipes) |
-| drippyloadingscreen | drippyloadingscreen | 3.0.12 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/drippyloadingscreen) |
-| eatinganimationid | eatinganimationid | 1.20+1.9.61 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/eatinganimationid) |
-| emiffect | emiffect | 2.1.5+mc1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/emiffect) |
-| emitrades | emitrades | 1.2.1+mc1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/emitrades) |
-| entity_model_features | entity_model_features | 3.0.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/entity-model-features) |
-| entity_texture_features | entity_texture_features | 7.0.2 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features) |
-| entityculling | entityculling | 1.8.2 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/entityculling) |
-| euphoria_patcher | euphoria_patcher | 1.6.5-r5.5.1-fabric |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/euphoria-patcher) |
-| fabric | fabric | fabric-loader-0.16.14.jar |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric) |
-| fallingleaves | fallingleaves | 1.15.6 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fallingleaves) |
-| fancymenu | fancymenu | 3.7.0 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fancymenu) |
-| ftbquestsfreezefix | ftbquestsfreezefix | 1.0.0 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ftbquestsfreezefix) |
-| geckoanimfix | geckoanimfix | 1.0.0 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/geckoanimfix) |
-| gpumemleakfix | gpumemleakfix | 1.20.1-1.8 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/gpumemleakfix) |
+| ae2-emi-crafting | ae2-emi-crafting | 1.3.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ae2-emi-crafting) |
+| ae2mtfix | ae2mtfix | 2.0.0+1.20.1+fabric | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ae2mtfix) |
+| ambientsounds | ambientsounds | 6.1.11 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ambientsounds) |
+| amecs | amecs | 1.3.10+mc.1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/amecs) |
+| animation_overhaul | animation_overhaul | 1.3.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/animation-overhaul) |
+| auudio | auudio | 1.0.3 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/auudio) |
+| axolotlitemfix | axolotlitemfix | 1.1.7 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/axolotlitemfix) |
+| badoptimizations | badoptimizations | 2.2.3 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/badoptimizations) |
+| betteradvancements | betteradvancements | 0.4.2.25 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/betteradvancements) |
+| betterbeds | betterbeds | 1.3.0 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/betterbeds) |
+| bhmenu | bhmenu | 2.4.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/bhmenu) |
+| blur | blur | 3.1.0 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/blur) |
+| boatiview | boatiview | 0.0.5 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/boatiview) |
+| bobby | bobby | 5.0.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/bobby) |
+| cat_jam | cat_jam | 1.3.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cat-jam) |
+| chat_heads | chat_heads | 0.13.18 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/chat-heads) |
+| chatanimation | chatanimation | 1.0.5 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/chatanimation) |
+| cherishedworlds | cherishedworlds | 6.1.7+1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cherishedworlds) |
+| citresewn | citresewn | 1.2.2+1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/citresewn) |
+| clickadv | clickadv | 1.20.1-3.8 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/clickadv) |
+| disable_custom_worlds_advice | disable_custom_worlds_advice | 4.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/disable-custom-worlds-advice) |
+| distraction_free_recipes | distraction_free_recipes | 1.2.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/distraction-free-recipes) |
+| drippyloadingscreen | drippyloadingscreen | 3.0.12 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/drippyloadingscreen) |
+| eatinganimationid | eatinganimationid | 1.20+1.9.61 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/eatinganimationid) |
+| emiffect | emiffect | 2.1.5+mc1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/emiffect) |
+| emitrades | emitrades | 1.2.1+mc1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/emitrades) |
+| entity_model_features | entity_model_features | 3.0.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/entity-model-features) |
+| entity_texture_features | entity_texture_features | 7.0.2 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features) |
+| entityculling | entityculling | 1.8.2 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/entityculling) |
+| euphoria_patcher | euphoria_patcher | 1.6.5-r5.5.1-fabric | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/euphoria-patcher) |
+| fabric | fabric | fabric-loader-0.16.14.jar | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric) |
+| fallingleaves | fallingleaves | 1.15.6 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fallingleaves) |
+| fancymenu | fancymenu | 3.7.0 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fancymenu) |
+| ftbquestsfreezefix | ftbquestsfreezefix | 1.0.0 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ftbquestsfreezefix) |
+| geckoanimfix | geckoanimfix | 1.0.0 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/geckoanimfix) |
+| gpumemleakfix | gpumemleakfix | 1.20.1-1.8 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/gpumemleakfix) |
 | highlighter | highlighter | 1.1.9 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/highlighter) |
-| immediatelyfast | immediatelyfast | 1.2.17+1.20.4 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/immediatelyfast) |
-| indium | indium | 1.0.36+mc1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/indium) |
-| iris | iris | 1.7.6+mc1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/iris) |
-| irisflw | irisflw | 1.1.4 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/irisflw) |
-| itemborders | itemborders | 1.2.2 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/itemborders) |
-| ktnilcks | ktnilcks | 1.20.1-1.3.8 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ktnilcks) |
-| lambdynlights | lambdynlights | 4.1.4+1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/lambdynlights) |
-| languagereload | languagereload | 1.7.4+1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/languagereload) |
-| lazy-language-loader | lazy-language-loader | 0.3.3 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/lazy-language-loader) |
-| leawind_third_person | leawind_third_person | 2.2.0 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/leawind-third-person) |
+| immediatelyfast | immediatelyfast | 1.2.17+1.20.4 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/immediatelyfast) |
+| indium | indium | 1.0.36+mc1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/indium) |
+| iris | iris | 1.7.6+mc1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/iris) |
+| irisflw | irisflw | 1.1.4 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/irisflw) |
+| itemborders | itemborders | 1.2.2 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/itemborders) |
+| ktnilcks | ktnilcks | 1.20.1-1.3.8 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ktnilcks) |
+| lambdynlights | lambdynlights | 4.1.4+1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/lambdynlights) |
+| languagereload | languagereload | 1.7.4+1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/languagereload) |
+| lazy-language-loader | lazy-language-loader | 0.3.3 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/lazy-language-loader) |
+| leawind_third_person | leawind_third_person | 2.2.0 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/leawind-third-person) |
 | legendarytooltips | legendarytooltips | 1.4.5 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/legendarytooltips) |
-| loadmyresources | loadmyresources | 1.0.4 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/loadmyresources) |
-| lootbeams | lootbeams | 1.0.3 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/lootbeams) |
-| mindfuldarkness | mindfuldarkness | 8.0.3 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mindfuldarkness) |
-| mousetweaks | mousetweaks | 2.26 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mousetweaks) |
-| nicer-skies | nicer-skies | 1.3.0 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/nicer-skies) |
-| noreportbutton | noreportbutton | 1.5.0 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/noreportbutton) |
-| notenoughanimations | notenoughanimations | 1.10.2 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/notenoughanimations) |
+| loadmyresources | loadmyresources | 1.0.4 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/loadmyresources) |
+| lootbeams | lootbeams | 1.0.3 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/lootbeams) |
+| mindfuldarkness | mindfuldarkness | 8.0.3 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mindfuldarkness) |
+| mousetweaks | mousetweaks | 2.26 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mousetweaks) |
+| nicer-skies | nicer-skies | 1.3.0 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/nicer-skies) |
+| noreportbutton | noreportbutton | 1.5.0 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/noreportbutton) |
+| notenoughanimations | notenoughanimations | 1.10.2 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/notenoughanimations) |
 | pickupnotifier | pickupnotifier | 8.0.0 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/pickupnotifier) |
-| presencefootsteps | presencefootsteps | 1.10.1+1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/presencefootsteps) |
-| prism | prism | 1.0.5 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/prism) |
-| reeses-sodium-options | reeses-sodium-options | 1.7.2+mc1.20.1-build.101 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options) |
-| resourcepackoverrides | resourcepackoverrides | 8.0.3 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/resourcepackoverrides) |
-| sdrp | sdrp | 4.0.3-build.40+mc1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sdrp) |
-| searchables | searchables | 1.0.3 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/searchables) |
-| seasonhud | seasonhud | 1.13.5 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/seasonhud) |
-| sodium | sodium | 0.5.13+mc1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sodium) |
-| sodium-extra | sodium-extra | 0.5.9+mc1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sodium-extra) |
-| sodiumoptionsapi | sodiumoptionsapi | 1.0.10 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sodiumoptionsapi) |
-| sortedenchantments | sortedenchantments | 2.0.0+1.19.3+fabric |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sortedenchantments) |
+| presencefootsteps | presencefootsteps | 1.10.1+1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/presencefootsteps) |
+| prism | prism | 1.0.5 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/prism) |
+| reeses-sodium-options | reeses-sodium-options | 1.7.2+mc1.20.1-build.101 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options) |
+| resourcepackoverrides | resourcepackoverrides | 8.0.3 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/resourcepackoverrides) |
+| sdrp | sdrp | 4.0.3-build.40+mc1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sdrp) |
+| searchables | searchables | 1.0.3 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/searchables) |
+| seasonhud | seasonhud | 1.13.5 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/seasonhud) |
+| sodium | sodium | 0.5.13+mc1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sodium) |
+| sodium-extra | sodium-extra | 0.5.9+mc1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sodium-extra) |
+| sodiumoptionsapi | sodiumoptionsapi | 1.0.10 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sodiumoptionsapi) |
+| sortedenchantments | sortedenchantments | 2.0.0+1.19.3+fabric | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sortedenchantments) |
 | visuality | visuality | 0.7.1+1.20 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/visuality) |
 | welcomescreen | welcomescreen | 1.0.0 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/welcomescreen) |
-| yeetusexperimentus | yeetusexperimentus | 2.3.1-build.6+mc1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/yeetusexperimentus) |
-| zoomify | zoomify | 2.14.2+1.20.1 |  | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/zoomify) |
+| yeetusexperimentus | yeetusexperimentus | 2.3.1-build.6+mc1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/yeetusexperimentus) |
+| zoomify | zoomify | 2.14.2+1.20.1 | - | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/zoomify) |
 | [Let's Do] API | doapi | 1.2.15 | 1,62 | [Github](https://github.com/modpack-exemple) |
 | [Let's Do] Beachparty | beachparty | 2.0.2 | 7,08 | [Github](https://github.com/modpack-exemple) |
 | [Let's Do] Brewery | brewery | 1.1.9 | 2,11 | [Github](https://github.com/modpack-exemple) |
