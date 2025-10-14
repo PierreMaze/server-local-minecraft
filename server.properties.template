@@ -1,0 +1,97 @@
+# Minecraft Server Properties
+# Generated for Prominence II: Hasturian Era v3.9.1
+# ================================================
+
+# Server Configuration
+server-name=Prominence II Server
+server-port=12345
+server-ip=
+
+# Game Settings
+gamemode=survival
+difficulty=normal
+hardcore=false
+pvp=true
+allow-flight=false
+allow-nether=true
+allow-end=true
+
+# World Settings
+level-name=world
+level-type=minecraft\:normal
+level-seed=
+generate-structures=true
+generator-settings={}
+world-border-size=29999984
+
+# Player Settings
+max-players=20
+max-world-size=29999984
+spawn-protection=16
+view-distance=10
+simulation-distance=10
+player-idle-timeout=0
+force-gamemode=false
+hardcore=false
+
+# Network Settings
+online-mode=true
+prevent-proxy-connections=false
+rate-limit=0
+network-compression-threshold=256
+max-tick-time=60000
+
+# Chat Settings
+enable-command-block=false
+enable-jmx-monitoring=false
+enable-status=true
+broadcast-console-to-ops=true
+broadcast-rcon-to-ops=true
+
+# Resource Pack
+resource-pack=
+resource-pack-sha1=
+resource-pack-prompt=
+require-resource-pack=false
+
+# RCON (Remote Console)
+enable-rcon=false
+rcon.port=25575
+rcon.password=
+
+# Query
+enable-query=false
+query.port=12345
+
+# Debug
+debug=false
+sync-chunk-writes=true
+function-permission-level=2
+entity-broadcast-range-percentage=100
+
+# Performance
+max-chained-neighbor-updates=1000000
+max-connections-per-tick=5
+
+# Logging
+log-ips=true
+
+# Spawn Settings
+spawn-animals=true
+spawn-monsters=true
+spawn-npcs=true
+
+# Miscellaneous
+enforce-whitelist=false
+white-list=false
+enforce-secure-profile=true
+enforce-username-whitelist=false
+
+# ================================================
+# Notes:
+# - Modifiez server-ip si vous voulez une IP spécifique
+# - Ajustez max-players selon vos besoins
+# - Changez gamemode si nécessaire (survival, creative, adventure, spectator)
+# - Modifiez difficulty si souhaité (peaceful, easy, normal, hard)
+# - Le seed est vide pour génération aléatoire
+# ================================================

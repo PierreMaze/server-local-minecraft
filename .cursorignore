@@ -1,0 +1,39 @@
+# Fichiers d'environnement
+.env
+.env.local
+.env.production
+.env.development
+
+# Fichiers Docker
+.docker/
+
+# Fichiers Cursor
+.cursor
+
+# Données du serveur Minecraft
+server-data/
+world/
+logs/
+backups/
+
+# Fichiers de configuration générés
+server.properties
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
+usercache.json
+usernamecache.json
+
+# Fichiers temporaires
+*.tmp
+*.log
+*.jar
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de sauvegarde
+*.backup
+*.bak
