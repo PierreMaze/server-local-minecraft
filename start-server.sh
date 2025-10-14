@@ -29,7 +29,7 @@ if [ -f ".env" ]; then
     echo "✅ Configuration chargée"
 else
     echo "⚠️  Fichier .env non trouvé, utilisation des valeurs par défaut"
-    export SERVER_PORT=12345
+    export SERVER_PORT=12345  #(change port et ce commentaire)
 fi
 echo
 
