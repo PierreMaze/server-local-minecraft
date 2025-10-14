@@ -118,52 +118,6 @@
 ---
 </div>
 
-<style>
-table {
-  font-size: 16px !important;
-  line-height: 1.6 !important;
-  border-collapse: collapse !important;
-  width: 100% !important;
-  margin: 20px 0 !important;
-}
-
-th, td {
-  padding: 12px 16px !important;
-  text-align: left !important;
-  border: 1px solid #ddd !important;
-  font-size: 16px !important;
-}
-
-th {
-  background-color:rgb(25, 26, 31) !important;
-  font-weight: bold !important;
-  font-size: 18px !important;
-  color: rgb(143, 144, 153) !important;
-}
-
-tr {
-  background-color:rgb(27, 28, 34) !important;
-}
-
-tr:hover {
-  background-color:rgb(23, 23, 27) !important;
-}
-
-td:nth-child(3), td:nth-child(4) {
-  text-align: center !important;
-}
-
-a {
-  color:rgb(185, 162, 121) !important;
-  text-decoration: none !important;
-  font-weight: 500 !important;
-}
-
-a:hover {
-  text-decoration: underline !important;
-  color:rgb(175, 143, 88) !important;
-}
-</style>
 
 | Nom | ModID | Version | Taille (Mo) | Source |
 |---|---|---:|---:|---|
