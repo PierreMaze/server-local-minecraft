@@ -53,8 +53,8 @@ RUN chown -R minecraft:minecraft /minecraft
 # Utilisateur non-root
 USER minecraft
 
-# Exposition du port
-EXPOSE "YOUR_VALUE"
+# Exposition du port (à changé)
+EXPOSE 12345
 
 # Volume pour la persistance des données
 VOLUME ["/minecraft/world", "/minecraft/logs", "/minecraft/backups"]
