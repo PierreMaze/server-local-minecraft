@@ -48,6 +48,8 @@
 
 ## 📚 **Documentation**
 
+***Lisez-les dans l'ordre pour une meilleure configuration.***
+
 | 📖 **Guide** | 📝 **Description** |
 |-------------|-------------------|
 | [**Guide de configuration**](GUIDE-CONFIGURATION.md) | Documentation de la configuration du serveur Minecraft. |
