@@ -53,10 +53,8 @@
 
 | 📖 **Guide** | 📝 **Description** |
 |-------------|-------------------|
-| [**Guide de configuration**](GUIDE-CONFIGURATION.md) | Documentation de la configuration du serveur Minecraft. |
-| [**Guide de démarrage**](GUIDE-DEMARRAGE.md) | Documentation sur le démarrage du serveur Minecraft. |
-| [**Guide de connexion à distance**](GUIDE-CONNEXION-DISTANTE.md) | Commandes de démarrage, documentation de configuration de la connexion à distance. |
-| [**Guide de commandes Docker**](GUIDE-COMMANDES-DOCKER.md) | Guide de commandes de gestion du serveur |
+| [**Guide Complet**](GUIDE-COMPLET.md) | 📚 **Documentation complète** - Guide pas à pas de la configuration, démarrage, gestion Docker, connexion distante et dépannage |
+| [**Guide Commandes Docker**](GUIDE-COMMANDES-DOCKER.md) | 📚 **Documentation des commandes** - Commandes de configuration, démarrage, gestion Docker, connexion distante et dépannage |
 | [**Liste des Mods**](MODS-LIST.md) | Liste et tableau des mods utiliser pour le serveur (avec Nom, ModID, Version, Taille (Mo), Source) |
 
 ## 🚀 **Guide d'Installation Rapide**
@@ -85,7 +83,7 @@
 ### **✅ Vérification et Démarrage**
 5. **🧪 Test de configuration** : Executez depuis l'explorateur de fichier `test-setup.bat` pour vérifier que tout est correct 
 6. **🎮 Démarrage du serveur** : Exécutez depuis l'explorateur de fichier `start-server.bat`.
-7. **🌐 Connexion distante** : Pour jouer avec des amis en ligne, consultez le [**Guide de Connexion Distante**](GUIDE-CONNEXION-DISTANTE.md)
+7. **🌐 Connexion distante** : Pour jouer avec des amis en ligne, consultez le [**Guide Complet**](GUIDE-COMPLET.md#-solution-ngrok-recommandée)
 
 
 ## 🛡️ **Sécurité & Performance**
