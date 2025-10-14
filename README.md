@@ -49,7 +49,7 @@
 | [**Guide de configuration**](GUIDE-CONFIGURATION.md) | Documentation de la configuration du serveur Minecraft. |
 | [**Guide de démarrage**](GUIDE-DEMARRAGE.md) | Documentation sur le démarrage du serveur Minecraft. |
 | [**Commandes**](GUIDE-COMMANDES.md) | Commandes de gestion du serveur |
-| [**Connexion à distance**](GUIDE-CONNEXION-DISTANTE.md) | Commandes de démarrage en distanciel, aisni que la documentation de la configuration du serveur Minecraft. |
+| [**Connexion à distance**](GUIDE-CONNEXION-DISTANTE.md) | Commandes de démarrage en distanciel, aisni que la documentation de la configuration de la connexion à distance. |
 
 ## 🛡️ **Sécurité & Performance**
 
