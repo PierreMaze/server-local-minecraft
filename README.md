@@ -30,7 +30,7 @@
 ## 🎮 Modpack Inclus
 
 **Prominence II: Hasturian Era v3.9.1**
-- **355 Mods** inclus pour une expérience complète
+- [**355 Mods**](MODS-LIST.md) inclus pour une expérience complète
 - **Expérience RPG** avec système de quêtes avancé
 - **Nouveaux biomes** et dimensions uniques
 - **Système de progression** et de personnalisation
