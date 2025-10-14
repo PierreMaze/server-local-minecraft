@@ -75,4 +75,3 @@
 [![Docker](https://img.shields.io/badge/Docker-Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com)
 
 </div>
-# server-local-minecraft
