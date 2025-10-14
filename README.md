@@ -37,6 +37,34 @@
 
 ## 🎯 **Pré-requis**
 
+## 🚀 **Guide d'Installation Rapide**
+
+### **📋 Prérequis**
+1. **🖥️ Virtualisation** : Activez la virtualisation dans le BIOS/UEFI de votre ordinateur
+2. **🐳 Docker** : Installez Docker Desktop depuis [docker.com](https://www.docker.com/products/docker-desktop/)
+
+### **⚙️ Configuration des Fichiers**
+3. **📁 Copiez et renommez** les fichiers templates :
+   ```
+   server.properties.template → server.properties
+   .env.example → .env
+   Dockerfile.template → Dockerfile
+   docker-compose-template.yml → docker-compose.yml
+   ```
+
+4. **🔧 Configurez vos variables** dans chaque fichier :
+   - **`server.properties`** : Port du serveur
+   - **`.env`** : Variables d'environnement (port, token ngrok, etc.)
+   - **`Dockerfile`** : Configuration du conteneur
+   - **`docker-compose.yml`** : Configuration Docker Compose
+   
+   💡 **Astuce** : Vous pouvez demander à ChatGPT de générer ces configurations !
+
+### **✅ Vérification et Démarrage**
+5. **🧪 Test de configuration** : Executez depuis l'explorateur de fichier `test-setup.bat` pour vérifier que tout est correct 
+6. **🎮 Démarrage du serveur** : Exécutez depuis l'explorateur de fichier `start-server.bat`.
+7. **🌐 Connexion distante** : Pour jouer avec des amis en ligne, consultez le [**Guide de Connexion Distante**](GUIDE-CONNEXION-DISTANTE.md)
+
 ### 🎮 **Modpack Prominence II**
 
 - **CursForge** - [Télécharger CursForge](https://www.curseforge.com/download/app)
@@ -45,11 +73,10 @@
 ### 🛠️ **Outils Serveur**
 
 - **Docker** - [Télécharger Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- **Test Setup** - Aller sur l'explorateur de fichier et lancer le fichier test-setup.bat, qui verfira si votre setup est bon.
+- **Test Setup** - Executez depuis l'explorateur de fichier `test-setup.bat` pour vérifier que tout est correct.
 
 ## 📚 **Documentation**
 
-***Lisez-les dans l'ordre pour une meilleure configuration.***
 
 | 📖 **Guide** | 📝 **Description** |
 |-------------|-------------------|

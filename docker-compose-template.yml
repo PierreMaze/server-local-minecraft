@@ -6,33 +6,33 @@ services:
       - "${SERVER_PORT:-YOUR_VALUE}:YOUR_VALUE"
     environment:
       # Configuration Minecraft
-      - MINECRAFT_VERSION=${MINECRAFT_VERSION:-YOUR_VALUE}
-      - MODLOADER=${MODLOADER:-YOUR_VALUE}
-      - MODLOADER_VERSION=${MODLOADER_VERSION:-YOUR_VALUE}
-      - RECOMMENDED_JAVA_VERSION=${RECOMMENDED_JAVA_VERSION:-YOUR_VALUE}
+      - MINECRAFT_VERSION=${MINECRAFT_VERSION:-1.20.1}
+      - MODLOADER=${MODLOADER:-Fabric}
+      - MODLOADER_VERSION=${MODLOADER_VERSION:-0.16.14}
+      - RECOMMENDED_JAVA_VERSION=${RECOMMENDED_JAVA_VERSION:-17}
       
-      # Configuration Java
-      - JAVA_ARGS=${JAVA_ARGS:-YOUR_VALUE}
-      - ADDITIONAL_ARGS=${ADDITIONAL_ARGS:-YOUR_VALUE}
+            # Configuration Java. Augementer la RAM si nécessaire à 8Go --Xmx8G -Xms8G
+      - JAVA_ARGS=${JAVA_ARGS:--Xmx4G -Xms4G}
+      - ADDITIONAL_ARGS=${ADDITIONAL_ARGS:--Dlog4j2.formatMsgNoLookups=true}
       
       # Configuration serveur
-      - RESTART=${RESTART:-YOUR_VALUE}
-      - WAIT_FOR_USER_INPUT=${WAIT_FOR_USER_INPUT:-YOUR_VALUE}
-      - SKIP_JAVA_CHECK=${SKIP_JAVA_CHECK:-YOUR_VALUE}
-      - EULA=${EULA:-YOUR_VALUE}
+      - RESTART=${RESTART:-true}
+      - WAIT_FOR_USER_INPUT=${WAIT_FOR_USER_INPUT:-false}
+      - SKIP_JAVA_CHECK=${SKIP_JAVA_CHECK:-false}
+      - EULA=${EULA:-true}
       
       # Configuration Fabric
-      - FABRIC_INSTALLER_VERSION=${FABRIC_INSTALLER_VERSION:-YOUR_VALUE}
-      - USE_SSJ=${USE_SSJ:-YOUR_VALUE}
-      - SERVERSTARTERJAR_FORCE_FETCH=${SERVERSTARTERJAR_FORCE_FETCH:-YOUR_VALUE}
-      - SERVERSTARTERJAR_VERSION=${SERVERSTARTERJAR_VERSION:-YOUR_VALUE}
+      - FABRIC_INSTALLER_VERSION=${FABRIC_INSTALLER_VERSION:-1.1.0}
+      - USE_SSJ=${USE_SSJ:-true}
+      - SERVERSTARTERJAR_FORCE_FETCH=${SERVERSTARTERJAR_FORCE_FETCH:-true}
+      - SERVERSTARTERJAR_VERSION=${SERVERSTARTERJAR_VERSION:-latest}
       
       # Configuration JDK
-      - JDK_VENDOR=${JDK_VENDOR:-YOUR_VALUE}
-      - JABBA_INSTALL_VERSION=${JABBA_INSTALL_VERSION:-YOUR_VALUE}
+      - JDK_VENDOR=${JDK_VENDOR:-temurin}
+      - JABBA_INSTALL_VERSION=${JABBA_INSTALL_VERSION:-0.13.0}
       
       # Adresse IP du serveur
-      - SERVER_IP=${SERVER_IP:-YOUR_VALUE}
+      - SERVER_IP=${SERVER_IP:-localhost}
     
     volumes:
       # Persistance des données
@@ -53,13 +53,13 @@ services:
     deploy:
       resources:
         limits:
-          memory: YOUR_VALUE
+          memory: 8G
         reservations:
-          memory: YOUR_VALUE
+          memory: 4G
     
     # Réseau personnalisé (optionnel)
     networks:
-      - YOUR_VALUE
+      - minecraft-network
 
 # Volumes nommés pour la persistance
 volumes:
@@ -76,5 +76,5 @@ volumes:
 
 # Réseau personnalisé
 networks:
-  YOUR_VALUE:
+  minecraft-network:
     driver: bridge

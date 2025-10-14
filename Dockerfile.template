@@ -2,24 +2,24 @@
 FROM eclipse-temurin:21-jdk
 
 # Métadonnées
-LABEL maintainer="YOUR_VALUE"
+LABEL maintainer="YOUR_VALUE" 
 LABEL description="YOUR_VALUE"
-LABEL version="YOUR_VALUE"
+LABEL version="1.0"
 
 # Variables d'environnement
-ENV MINECRAFT_VERSION="YOUR_VALUE"
+ENV MINECRAFT_VERSION=1.20.1
 ENV MODLOADER="YOUR_VALUE"
-ENV MODLOADER_VERSION="YOUR_VALUE"
-ENV RECOMMENDED_JAVA_VERSION="YOUR_VALUE"
-ENV JAVA_ARGS="YOUR_VALUE"
-ENV ADDITIONAL_ARGS="YOUR_VALUE"
-ENV RESTART="YOUR_VALUE"
-ENV WAIT_FOR_USER_INPUT="YOUR_VALUE"
-ENV SKIP_JAVA_CHECK="YOUR_VALUE"
-ENV USE_SSJ="YOUR_VALUE"
-ENV SERVERSTARTERJAR_FORCE_FETCH="YOUR_VALUE"
-ENV SERVERSTARTERJAR_VERSION="YOUR_VALUE"
-ENV EULA="YOUR_VALUE"
+ENV MODLOADER_VERSION=0.16.14
+ENV RECOMMENDED_JAVA_VERSION=17
+ENV JAVA_ARGS="-Xmx8G -Xms8G"
+ENV ADDITIONAL_ARGS=""
+ENV RESTART=false
+ENV WAIT_FOR_USER_INPUT=false
+ENV SKIP_JAVA_CHECK=false
+ENV USE_SSJ=true
+ENV SERVERSTARTERJAR_FORCE_FETCH=false
+ENV SERVERSTARTERJAR_VERSION=latest
+ENV EULA=true
 
 # Installation des dépendances système
 RUN apt-get update && apt-get install -y \
@@ -35,7 +35,7 @@ RUN groupadd -r minecraft && useradd -r -g minecraft minecraft
 WORKDIR /minecraft
 
 # Copie des fichiers du serveur
-COPY YOUR_VALUE/ ./
+COPY Prominence_II_Hasturian_Era_v3.9.1_Server_Pack/ ./
 
 # Rendre les scripts exécutables
 RUN chmod +x start.sh install_java.sh
@@ -53,7 +53,7 @@ RUN chown -R minecraft:minecraft /minecraft
 # Utilisateur non-root
 USER minecraft
 
-# Exposition du port (à changé)
+# Exposition du port (à changé !!!!)
 EXPOSE 12345
 
 # Volume pour la persistance des données

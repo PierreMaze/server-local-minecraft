@@ -12,6 +12,16 @@ docker-compose build
 docker-compose up -d
 ```
 
+### Démarrer le Serveur
+```bash
+# Option 1: Script automatique
+start-server.bat
+
+# Option 2: Commandes manuelles
+docker-compose build
+docker-compose up -d
+```
+
 ## 🆘 Support
 
 ### Problèmes Courants

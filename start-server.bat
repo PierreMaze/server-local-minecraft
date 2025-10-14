@@ -25,6 +25,21 @@ if %errorlevel% neq 0 (
 echo Docker détecté avec succès!
 echo.
 
+REM Charger les variables d'environnement depuis .env
+if exist ".env" (
+    echo Chargement de la configuration depuis .env...
+    for /f "usebackq tokens=1,2 delims==" %%a in (".env") do (
+        if not "%%a"=="" if not "%%a:~0,1%"=="#" (
+            set "%%a=%%b"
+        )
+    )
+    echo ✅ Configuration chargée
+) else (
+    echo ⚠️  Fichier .env non trouvé, utilisation des valeurs par défaut
+    set SERVER_PORT=12345
+)
+echo.
+
 REM Construire l'image si nécessaire
 echo Construction de l'image Docker...
 docker-compose build
@@ -37,7 +52,7 @@ if %errorlevel% neq 0 (
 
 echo.
 echo Démarrage du serveur Minecraft...
-echo Le serveur sera accessible sur localhost:12345  // (change)
+echo Le serveur sera accessible sur localhost:%SERVER_PORT%
 echo.
 echo Pour voir les logs en temps réel, ouvrez un autre terminal et exécutez:
 echo docker-compose logs -f
