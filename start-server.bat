@@ -37,7 +37,7 @@ if %errorlevel% neq 0 (
 
 echo.
 echo Démarrage du serveur Minecraft...
-echo Le serveur sera accessible sur localhost:12345
+echo Le serveur sera accessible sur localhost:12345  // (change)
 echo.
 echo Pour voir les logs en temps réel, ouvrez un autre terminal et exécutez:
 echo docker-compose logs -f
