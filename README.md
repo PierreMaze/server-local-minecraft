@@ -50,12 +50,12 @@
 
 ## 📚 **Documentation**
 
-
 | 📖 **Guide** | 📝 **Description** |
 |-------------|-------------------|
-| [**Guide Complet**](GUIDE-COMPLET.md) | 📚 **Documentation complète** - Guide pas à pas de la configuration, démarrage, gestion Docker, connexion distante et dépannage |
-| [**Guide Commandes Docker**](GUIDE-COMMANDES-DOCKER.md) | 📚 **Documentation des commandes** - Commandes de configuration, démarrage, gestion Docker, connexion distante et dépannage |
-| [**Liste des Mods**](MODS-LIST.md) | Liste et tableau des mods utiliser pour le serveur (avec Nom, ModID, Version, Taille (Mo), Source) |
+| [**Guide Complet**](GUIDE-COMPLET.md) | 📚 **Installation et configuration** - Guide pas à pas de l'installation, configuration et démarrage du serveur |
+| [**Guide Port Forwarding**](GUIDE-PORT-FORWARDING.md) | 🌐 **Connexion distante** - Configuration du routeur pour permettre la connexion depuis Internet |
+| [**Guide Commandes Docker**](GUIDE-COMMANDES-DOCKER.md) | 🐳 **Commandes Docker** - Commandes avancées pour la gestion du serveur |
+| [**Liste des Mods**](MODS-LIST.md) | 📋 **Mods inclus** - Liste complète des 355 mods du modpack Prominence II |
 
 ## 🚀 **Guide d'Installation Rapide**
 
@@ -65,26 +65,83 @@
 
 ### **⚙️ Configuration des Fichiers**
 3. **📁 Copiez et renommez** les fichiers templates :
-   ```
-   server.properties.template → server.properties
-   .env.example → .env
-   Dockerfile.template → Dockerfile
-   docker-compose-template.yml → docker-compose.yml
-   ```
+
+   - [**server.properties.template**](server.properties.template) **→ server.properties**
+   - [**.env.example**](.env.example) **→ .env**
+   - [**Dockerfile.template**](Dockerfile.template) **→ Dockerfile**
+   - [**docker-compose-template.yml**](docker-compose-template.yml) **→ docker-compose.yml**
+
 
 4. **🔧 Configurez vos variables** dans chaque fichier :
-   - **`server.properties`** : Port du serveur
-   - **`.env`** : Variables d'environnement (port, token ngrok, etc.)
-   - **`Dockerfile`** : Configuration du conteneur
-   - **`docker-compose.yml`** : Configuration Docker Compose
+   - **`server.properties`** : Nom, Adresse IP, Port et Query Port du serveur
+   - **`.env`** :  Adresse IP, Port et RAM du serveur
+   - **`Dockerfile`** : Port (via la variable ***"EXPOSE"**)
+   - **`docker-compose.yml`** : Port (via la variable **port**: *"${SERVER_PORT:-**12345**}:**12345**"*)
    
    💡 **Astuce** : Vous pouvez demander à ChatGPT de générer ces configurations !
 
 ### **✅ Vérification et Démarrage**
 5. **🧪 Test de configuration** : Executez depuis l'explorateur de fichier `test-setup.bat` pour vérifier que tout est correct 
 6. **🎮 Démarrage du serveur** : Exécutez depuis l'explorateur de fichier `start-server.bat`.
-7. **🌐 Connexion distante** : Pour jouer avec des amis en ligne, consultez le [**Guide Complet**](GUIDE-COMPLET.md#-solution-ngrok-recommandée)
+7. **🌐 Connexion distante** : Pour jouer avec des amis en ligne, consultez le [**Guide Port Forwarding**](GUIDE-PORT-FORWARDING.md)
 
+
+## 🎯 **Commandes Essentielles**
+
+| Action | Commande | Description |
+|--------|----------|-------------|
+| ▶️ **Démarrer** | `docker-compose up -d` | Lance le serveur en arrière-plan |
+| ⏹️ **Arrêter** | `docker-compose down` | Arrête proprement le serveur |
+| 🔄 **Redémarrage** | `docker-compose restart` | Redémarre rapidement le serveur |
+| 📊 **Logs** | `docker-compose logs -f` | Suit l'activité en temps réel |
+| 📈 **État** | `docker-compose ps` | Vérifie le statut du serveur |
+| 🧪 **Test** | `test-setup.bat` | Vérifie la configuration |
+| 🚀 **Démarrage Auto** | `start-server.bat` | Démarre le serveur automatiquement |
+
+## 🆘 **Dépannage**
+
+### **🚫 Le serveur ne démarre pas**
+```bash
+# Vérifier les logs d'erreur
+docker-compose logs --tail=50
+
+# Vérifier l'état des conteneurs
+docker-compose ps
+
+# Reconstruire l'image
+docker-compose build --no-cache
+```
+
+### **🌐 Problèmes de connexion**
+```bash
+# Vérifier que le port est ouvert
+netstat -an | findstr :12345
+
+# Tester la connexion locale
+Test-NetConnection -ComputerName localhost -Port 12345
+
+# Vérifier les règles du pare-feu
+netsh advfirewall firewall show rule name="Minecraft Server"
+```
+
+### **⚡ Problèmes de performance**
+```bash
+# Vérifier l'utilisation des ressources
+docker stats prominence-minecraft-server
+
+# Voir les logs de performance
+docker-compose logs | findstr "Can't keep up"
+
+# Vérifier l'espace disque
+docker system df
+```
+
+### **🛑 Problèmes Courants**
+1. **Port occupé** : Changez le port dans `.env`
+2. **Pas assez de RAM** : Augmentez `JAVA_ARGS` dans `.env`
+3. **Modpack incompatible** : Vérifiez la version Minecraft (1.20.1)
+4. **Virtualisation désactivée** : Activez-la dans le BIOS
+5. **Docker non installé** : Installez Docker Desktop
 
 ## 🛡️ **Sécurité & Performance**
 
