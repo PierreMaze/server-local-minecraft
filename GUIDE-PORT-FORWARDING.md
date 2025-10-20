@@ -159,7 +159,7 @@ Test-NetConnection -ComputerName localhost -Port 12345
 ### **Problème : FAI bloque le port**
 
 **Solutions :**
-- **Changer de port** : Essayez un port différent (80, 443, 8080)
+- **Changer de port** : Essayez un port différent (ne pas utiliser : 80, 443, 8080)
 - **Contacter le FAI** : Demandez l'ouverture du port
 - **VPN** : Utilisez un VPN pour contourner les restrictions
 
