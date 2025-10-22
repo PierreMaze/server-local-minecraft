@@ -45,3 +45,6 @@ Thumbs.db
 # Fichiers de sauvegarde
 *.backup
 *.bak
+
+start-server.bat
+start-server.sh
